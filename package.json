@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://Sanya486.github.io/RxJS-test-app/",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
