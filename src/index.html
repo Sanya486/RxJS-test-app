@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>RxJS Полный курс</title>
+  </head>
+  <body style="padding-top: 3rem">
+    <div class="container">
+      <div id="problem">
+        <h1>Canva with RxJS</h1>
+        <hr style="background-color: #26a69a" />
+      </div>
+
+      <div class="create-wrapper">
+        <canvas width="500" height="400" ></canvas>
+        <div class="option-wrapper">
+          <p>
+            Line width:
+            <span data-badge-caption="px" class="line-width-badge new badge"
+              >1</span
+            >
+          </p>
+          <p class="range-field">
+            <input type="range" id="line-width" min="1" max="10" value="1" />
+          </p>
+          <p>Line color:</p>
+          <input type="color" name="" id="line-color" />
+          <button class="btn" id="clear">Очистить</button>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

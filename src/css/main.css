@@ -1,0 +1,22 @@
+canvas {
+  border-radius: 10px;
+  border: 1px solid #26a69a;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+}
+
+.create-wrapper {
+  display: flex;
+}
+
+.option-wrapper {
+  padding: 20px;
+  width: 100%;
+}
+
+input[type='color'] {
+  display: block;
+  margin-bottom: 50px;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
